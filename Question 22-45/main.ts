@@ -1,0 +1,9 @@
+/*19.	Intentional Error: If you haven’t received an array index error in one of your programs yet,
+try to make one happen.
+Change an index in one of your programs to produce an index error.
+Make sure you correct the error before closing the program.*/
+let kings: string[] = ["BABAR AZAM", "M AMIR", "IMAD WASEEM"];
+//Intentional error
+console.log(kings[3]); 
+//Correcting the error
+console.log(kings[2]);
